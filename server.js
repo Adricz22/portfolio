@@ -33,7 +33,7 @@ contactEmail.verify((error) => {
 });
 
 router.get("/", (req, res) => {
-  res.status(200).send("<h1>Home</h1>");
+  res.status(200).send("<h1>Mail Server Backend</h1>");
 });
 
 router.post("/contact", (req, res) => {
